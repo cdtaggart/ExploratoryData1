@@ -8,3 +8,7 @@ hist(as.numeric(as.character(subactivepower$Global_active_power)),col="red",main
 
 #Title
 title(main="Global Active Power")
+
+#COpy
+dev.copy(png, file = "plot1.png", height=480, width=480)
+dev.off()
